@@ -6,7 +6,7 @@ function App() {
   return (
     <div className='colorBoxParent'>
         <div className='colorBox' style={{backgroundColor: color}}>
-          <p className='colorName'>{color===''?'Empty value':color}</p>
+          <p className='colorName' style={{color: color!==''?color:"white"}}>{color===''?'Empty value':color}</p>
         </div><br/>
         <input className='colorText' type="text" id="txtColor" value={color} 
                placeholder='Enter color name' onChange={(e) => setColor(e.target.value)} />
