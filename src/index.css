@@ -11,3 +11,36 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.colorBox
+{
+  height: 250px;
+  width: 250px;
+  border: 1px solid black;
+  text-align: center;
+  align-content: center;
+}
+.colorBoxParent
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.colorText
+{
+  min-height: 30px;
+  padding: 0.25rem;
+  border-radius: 0.25rem;
+  margin-right: 0.25rem;
+  outline: none;
+  border: 1px solid black;
+}
+
+.colorName
+{
+  filter: invert(1)
+}
