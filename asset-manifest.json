@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react_deploy_colorset/static/css/main.8c85cb6f.css",
+    "main.js": "/react_deploy_colorset/static/js/main.57c1d0b0.js",
+    "index.html": "/react_deploy_colorset/index.html",
+    "main.8c85cb6f.css.map": "/react_deploy_colorset/static/css/main.8c85cb6f.css.map",
+    "main.57c1d0b0.js.map": "/react_deploy_colorset/static/js/main.57c1d0b0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8c85cb6f.css",
+    "static/js/main.57c1d0b0.js"
+  ]
+}
